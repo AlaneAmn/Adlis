@@ -1,0 +1,21 @@
+.serach-form{
+    width: 100%;
+    max-width: 680px;
+}
+.search-form-elem{
+    padding: 1.4rem 2.8rem;
+    border-radius: 3.8rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--red-color);
+    background-color: #fff;
+}
+.search-form-elem .form-control{
+    font-size: 2rem;
+    padding: 0.2rem;
+    padding-right: 4rem;
+}
+.search-form-elem .form-control::placeholder{
+    opacity: 0.7;
+    background-color: #fff;
+}
